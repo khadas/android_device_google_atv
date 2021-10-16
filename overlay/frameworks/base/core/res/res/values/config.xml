@@ -24,10 +24,10 @@
     <bool name="config_sendAudioBecomingNoisy">false</bool>
 
     <!-- This device is data-only. -->
-    <bool name="config_voice_capable">false</bool>
+    <!--<bool name="config_voice_capable">false</bool>-->
 
     <!-- This device does not allow sms service. -->
-    <bool name="config_sms_capable">false</bool>
+    <!--<bool name="config_sms_capable">false</bool>-->
 
     <!-- Control the default UI mode type to use when there is no other type override
          happening.  One of the following values (See Configuration.java):
@@ -35,7 +35,7 @@
              4  UI_MODE_TYPE_TELEVISION
              5  UI_MODE_TYPE_APPLIANCE
          Any other values will have surprising consequences. -->
-    <integer name="config_defaultUiModeType">4</integer>
+    <!--<integer name="config_defaultUiModeType">4</integer>-->
 
     <!--  Control whether to lock UI mode to what is selected from config_defaultUiModeType.
           Once UI mode is locked, applications cannot change it anymore. -->
