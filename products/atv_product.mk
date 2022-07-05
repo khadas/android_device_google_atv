@@ -21,8 +21,7 @@ $(call inherit-product-if-exists, frameworks/base/data/sounds/AudioTv.mk)
 
 PRODUCT_PACKAGES += \
     SettingsIntelligence \
-    SystemUI \
-    TvSettings
+    SystemUI
 
 # Do not include the Live Channels app if USE_OEM_TV_APP flag is set.
 # The feature com.google.android.tv.installed is used to tell whether a device
