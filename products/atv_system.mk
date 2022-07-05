@@ -92,7 +92,7 @@ ifneq ($(PRODUCT_IS_ATV_SDK),true)
     PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
 endif
 
-DEVICE_PACKAGE_OVERLAYS += \
+#DEVICE_PACKAGE_OVERLAYS += \
     device/google/atv/overlay
 
 # Enable frame-exact AV sync
