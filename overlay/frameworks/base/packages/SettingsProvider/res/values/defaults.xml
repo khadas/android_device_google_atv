@@ -23,7 +23,7 @@
     <bool name="def_lockscreen_disabled">true</bool>
 
     <!-- Keep screen on at all times by default -->
-    <bool name="def_stay_on_while_plugged_in">true</bool>
+    <bool name="def_stay_on_while_plugged_in">false</bool>
 
     <!-- Do not give up on DHCP -->
     <integer name="def_max_dhcp_retries">0</integer>
@@ -36,7 +36,7 @@
     <!-- ms until the system goes to sleep, 24 hours default for TV devices -->
     <integer name="def_sleep_timeout">86400000</integer>
 
-    <!-- Default screen timeout set when setting screensaver. Currently (15 * 60 * 1000) = 15 min -->
-    <integer name="def_screen_off_timeout">900000</integer>
+    <!-- Default screen timeout set when setting screensaver. Currently (15 * 60 * 1000) = 15 min
+    <integer name="def_screen_off_timeout">900000</integer> -->
 
 </resources>
