@@ -203,8 +203,8 @@
     <bool name="config_autoPowerModePrefetchLocation">false</bool>
 
     <!-- Whether Low Power Standby is supported and can be enabled. -->
-    <bool name="config_lowPowerStandbySupported">true</bool>
+    <bool name="config_lowPowerStandbySupported">false</bool>
 
     <!-- If supported, whether Low Power Standby is enabled by default. -->
-    <bool name="config_lowPowerStandbyEnabledByDefault">true</bool>
+    <bool name="config_lowPowerStandbyEnabledByDefault">false</bool>
 </resources>
