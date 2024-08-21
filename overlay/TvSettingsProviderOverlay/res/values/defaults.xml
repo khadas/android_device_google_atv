@@ -34,10 +34,10 @@
     <bool name="def_netstats_enabled">false</bool>
 
     <!-- ms until the system goes to sleep, 24 hours default for TV devices -->
-    <integer name="def_sleep_timeout">86400000</integer>
+    <integer name="def_sleep_timeout">2147483647</integer>
 
-    <!-- Default screen timeout set when setting screensaver. Currently (15 * 60 * 1000) = 15 min -->
-    <integer name="def_screen_off_timeout">900000</integer>
+    <!-- Default screen timeout set when setting screensaver. Currently (15 * 60 * 1000) = 15 min-->
+    <integer name="def_screen_off_timeout">2147483647</integer>
 
     <!-- Don't turn Wifi back on automatically -->
     <bool name="def_wifi_wakeup_enabled">false</bool>
