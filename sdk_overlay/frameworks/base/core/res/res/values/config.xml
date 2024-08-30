@@ -17,7 +17,7 @@
 <resources>
 
     <!-- development/sdk_overlay enables voice. Reset to data-only. -->
-    <bool name="config_voice_capable">false</bool>
+    <bool name="config_voice_capable">true</bool>
 
     <!-- This device doesn't support quick settings and its associated APIs -->
     <bool name="config_quickSettingsSupported">false</bool>

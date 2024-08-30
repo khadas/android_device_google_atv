@@ -45,4 +45,8 @@
     <!-- Allow users to use both the on-screen keyboard, as well as a real keyboard -->
     <bool name="def_show_ime_with_hard_keyboard">true</bool>
 
+
+    <integer name="def_long_press_timeout_millis">1000</integer>
+
+    <bool name="def_install_non_market_apps">true</bool>
 </resources>

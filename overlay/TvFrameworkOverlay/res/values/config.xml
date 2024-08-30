@@ -112,7 +112,7 @@
          PackageManager.FEATURE_TELEPHONY system feature, which is
          available on *any* device with a telephony radio, even if the
          device is data-only. -->
-    <bool name="config_voice_capable">false</bool>
+    <bool name="config_voice_capable">true</bool>
 
     <!-- Flag indicating whether the current device allows sms service.
          If true, this means that the device supports both sending and
@@ -122,26 +122,26 @@
 
          Note: Disable SMS also disable voicemail waiting sms,
                cell broadcasting sms, and MMS. -->
-    <bool name="config_sms_capable">false</bool>
+    <bool name="config_sms_capable">true</bool>
 
     <!-- Flag indicating whether the current device allows data.
          If true, this means that the device supports data connectivity through
          the telephony network.
          This can be overridden to false for devices that support voice and/or sms . -->
-    <bool name="config_mobile_data_capable">false</bool>
+    <bool name="config_mobile_data_capable">true</bool>
 
     <!-- The name of the package that will hold the system contacts role. -->
     <string name="config_systemContacts" translatable="false">com.android.tv.frameworkpackagestubs</string>
 
     <!-- ComponentName of the default dream (Settings.Secure.DEFAULT_SCREENSAVER_COMPONENT) -->
-    <string name="config_dreamsDefaultComponent" translatable="false">com.android.dreams.basic/com.android.dreams.basic.Colors</string>
+    <string name="config_dreamsDefaultComponent" translatable="false">com.android.deskclock/com.android.deskclock.Screensaver</string>
 
     <!-- Override the DPad detection behavior for configuration purposes -->
     <bool name="config_hasPermanentDpad">true</bool>
 
     <!-- Determines whether recent tasks are provided to the user. Default device has recents
          property. If this is false, then the following recents config flags are ignored. -->
-    <bool name="config_hasRecents">false</bool>
+    <bool name="config_hasRecents">true</bool>
 
     <!-- Whether to start in touch mode -->
     <bool name="config_defaultInTouchMode">false</bool>
@@ -171,7 +171,7 @@
          constraint will be enforced.
          ATV limits the UI graphics width to 1920 because higher resolution is unnecessary and causes
          too much overhead on the GPU for Android TV devices. -->
-    <integer name="config_maxUiWidth">1920</integer>
+    <integer name="config_maxUiWidth">0</integer>
 
     <!-- Whether the device supports quick settings and its associated APIs -->
     <bool name="config_quickSettingsSupported">false</bool>
