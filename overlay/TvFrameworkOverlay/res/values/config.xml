@@ -208,4 +208,6 @@
 
     <!-- If supported, whether Low Power Standby is enabled by default. -->
     <bool name="config_lowPowerStandbyEnabledByDefault">false</bool>
+    <bool name="config_enableWifiDisplay">true</bool>
+    <bool name="config_enableWifiP2pAutoAcceptInvitation">true</bool>
 </resources>
