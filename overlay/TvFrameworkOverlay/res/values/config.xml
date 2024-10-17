@@ -59,7 +59,7 @@
              1 - MODE_NIGHT_NO
              2 - MODE_NIGHT_YES
     -->
-    <integer name="config_defaultNightMode">2</integer>
+    <integer name="config_defaultNightMode">1</integer>
 
     <!-- Control the behavior when the user long presses the power button.
             0 - Nothing
