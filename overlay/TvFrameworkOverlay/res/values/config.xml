@@ -155,7 +155,7 @@
     <integer name="config_jobSchedulerInactivityIdleThreshold">300000</integer>
 
     <!-- True if the device supports split screen as a form of multi-window. -->
-    <bool name="config_supportsSplitScreenMultiWindow">false</bool>
+    <bool name="config_supportsSplitScreenMultiWindow">true</bool>
 
     <!-- True if the device supports system decorations on secondary displays. -->
     <bool name="config_supportsSystemDecorsOnSecondaryDisplays">false</bool>
@@ -174,7 +174,7 @@
     <integer name="config_maxUiWidth">0</integer>
 
     <!-- Whether the device supports quick settings and its associated APIs -->
-    <bool name="config_quickSettingsSupported">false</bool>
+    <bool name="config_quickSettingsSupported">true</bool>
 
     <!-- Whether to keep background restricted profiles running after exiting. If set to false,
          restricted profiles may be put into stopped state as soon as the switch back to primary
